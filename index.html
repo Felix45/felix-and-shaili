@@ -27,9 +27,28 @@
     </p>
     
     <form action="" id="survey-form">
+      <label for="name" id="name-label"></label>
+     <input type="text" id="name" name="name" placeholder="Enter Name">
+<label for="email" id="email-label"></label>
       <input type="email" name="email" id="email" placeholder="Enter Email" required>
-      <input type="number" id="number" max="100" min="0" placeholder="Enter Number">
-    </form>
+<label for="number" id="number-label"></label>
+      <input type="number" name="number" id="number" max="100" min="0" placeholder="Enter Number">
+    <select name="dropdown" id="dropdown"> 
+      <option value="male">male</option>
+      <option value="female">female</option>
+
+    </select>
+    <input type="radio" name="team" id="" value="manchesterunited">manchesterunited 
+    <input type="radio" name="team" id="" value="arsenal">arsenal
+    <input type="radio" name="team" id="" value="brazil">brazil
+
+    <input type="checkbox" name="color" id="" value="red">red 
+    <input type="checkbox" name="color" id="" value="blue">blue
+    <input type="checkbox" name="color" id="" value="green">green
+
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    <button type="submit" id="submit">submit</button>  
+  </form>
 
     <p>Hello World, we are software developers!!</p>
     <script  src="js/index.js"></script>
